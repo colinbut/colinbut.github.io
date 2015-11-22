@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jQCloud-master/dist/jqcloud.min.js"></script>
+    <link rel="stylesheet" href="jQCloud-master/dist/jqcloud.min.css">
+
+    <script type="text/javascript">
+        var words = [
+            {text: "Lorem", weight: 13},
+            {text: "Ipsum", weight: 10.5},
+            {text: "Dolor", weight: 9.4},
+            {text: "Sit", weight: 8},
+            {text: "Amet", weight: 6.2},
+            {text: "Consectetur", weight: 5},
+            {text: "Adipiscing", weight: 5}
+            
+        ];
+
+        $(document).ready(function() {
+          $('#demo').jQCloud(words);
+        });
+
+    </script>
+
+    <style type="text/css">
+      #demo {
+          width: 500px;
+          height: 500px;
+          margin: auto;
+          border: 1px solid red;
+      }
+    </style>
+    
+    <title>jQCloud example</title>
+
+  </head>
+
+  <body>
+
+    <div id="demo"></div>
+
+    
+  </body>
+</html>
