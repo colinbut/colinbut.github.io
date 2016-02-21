@@ -1,5 +1,7 @@
-# colinbut.github.io
+# My Personal Website
 
-My Personal Website
+Built with:
 
-Built with Bootstrap 3
++ Bootstrap 3
++ JQCloud 
+
