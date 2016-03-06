@@ -2,10 +2,11 @@
 
 Built with:
 
-+ HTML
++ HTML/5
 + CSS
 + JS
 + Bootstrap 3
-+ JQCloud 
++ JQCloud
++ FullPage.js 
 + Font Awesome
 
