@@ -1,0 +1,12 @@
+.contact-form-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact-form-container {
+    width: 750px;
+}
+
+textarea {
+	resize: none;
+}

@@ -1,0 +1,52 @@
+#skillz {
+	width:75%;
+	height:450px;
+	margin: auto;
+	
+}
+
+.skills--jqcloud-words {
+	/*float:left;*/
+}
+
+.summary {
+	float: right;
+	padding-top: 50px;
+}
+
+#social-section {
+	padding-top: 50px;
+}
+
+
+.social--link-item  {
+	padding-right: 20px;
+}
+
+.clear {
+	clear:both;
+}
+
+.blog-section {
+	height: 200px;
+	/*padding: 50px 0;*/
+}
+
+.text-color-white{
+	color: white;
+}
+
+.text-color-dark{
+	color: black;
+}
+
+
+.blog-section a:link, a:visited { 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blog-section a:hover {
+	text-decoration: underline;
+	color: #1bbc9b;
+}
