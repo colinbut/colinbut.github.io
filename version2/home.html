@@ -44,7 +44,8 @@
 
     <ul id="menu">
     	<li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
-    	<li data-menuanchor="me"><a href="#me">Me</a></li>
+    	<li data-menuanchor="info"><a href="#info">Info</a></li>
+      <li data-menuanchor="me"><a href="#me">Me</a></li>
     	<li data-menuanchor="skills"><a href="#skills">Skills</a></li>
     	<li data-menuanchor="projects"><a href="#projects">Projects</a></li>
       <li data-menuanchor="blog"><a href="#blog">Blog</a></li>
@@ -58,20 +59,29 @@
             <div class="col-md-7">
               <h2 class="featurette-heading text-color-white">My name is... <span class="text-muted text-color-dark">Colin But</span></h2>
               <p class="lead text-color-white">I am a Java Developer specialising in providing back-end software solutions. I also have a keen interest in a variety of front-end technologies.</p>
-              <div>
-                <p class="lead text-color-white">My areas of expertise &amp; interests are:</p>
-                <ul style="color:black">
-                  <li>Object-Oriented Design &amp; Programming</li>
-                  <li>Software Design Patterns</li>
-                  <li>Software Architecture</li>
-                  <li>Concurrent / Multi-Threading Programming</li>
-                  <li>Enteprise Application Integration</li>
-                  <li>Messaging Solutions</li>
-                <ul>
-              </div>
             </div>
-            <div class="col-md-5" style="padding-top:200px;">
+            <div class="col-md-5" style="padding-top:130px;">
               <img class="featurette-image img-circle center-block" src="static/images/myself.jpg" alt="image of me" width="140" height="140">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section" data-anchor="info">
+        <div class="container marketing">
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">My areas of expertise &amp; interests are:</h2>
+              </div>
+            <div class="col-md-5" style="padding-top:50px;">
+              <p>
+              <span class="label label-default">Object-Oriented Design &amp; Programming</span>
+                  <span class="label label-primary">Software Design Patterns</span>
+                  <span class="label label-success">Software Architecture</span>
+                  <span class="label label-info">Concurrent / Multi-Threading Programming</span>
+                  <span class="label label-warning">Enteprise Application Integration</span>
+                  <span class="label label-danger">Messaging Solutions</span>
+                </p>
             </div>
           </div>
         </div>
@@ -90,6 +100,8 @@
           </div>
         </div>
       </div>
+
+
 
       <div class="section" data-anchor="skills">
         <div class="container marketing">
@@ -193,14 +205,14 @@
     <script>
       $(document).ready(function() {
         $('#fullpage').fullpage({
-          anchors: ['home', 'me', 'skills', 'projects', 'blog', 'contact'],
-          sectionsColor: ['#DE564B', '#FFFFFF','#323539', '#4BBFC3', '#4A6FB1','#1bbc9b'],
+          anchors: ['home', 'info', 'me', 'skills', 'projects', 'blog', 'contact'],
+          sectionsColor: ['#DE564B', '#FFFFFF', '#FFFFFF', '#323539', '#4BBFC3', '#4A6FB1','#1bbc9b'],
           menu: '#menu',
           scrollingSpeed: 1000,
           //navigation: true,
           slidesNavigation: true,
 				  navigationPosition: 'right',
-				  navigationTooltips: ['home', 'me', 'skills', 'projects', 'blog', 'contact']
+				  navigationTooltips: ['home', 'info', 'me', 'skills', 'projects', 'blog', 'contact']
         });
       });
     </script>
