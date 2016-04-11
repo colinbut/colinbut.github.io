@@ -44,8 +44,8 @@
 
     <ul id="menu">
     	<li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
-    	<li data-menuanchor="info"><a href="#info">Info</a></li>
-      <li data-menuanchor="me"><a href="#me">Me</a></li>
+    	<li data-menuanchor="about"><a href="#about">About</a></li>
+      <li data-menuanchor="info"><a href="#info">Info</a></li>
     	<li data-menuanchor="skills"><a href="#skills">Skills</a></li>
     	<li data-menuanchor="projects"><a href="#projects">Projects</a></li>
       <li data-menuanchor="blog"><a href="#blog">Blog</a></li>
@@ -67,7 +67,7 @@
         </div>
       </div>
 
-      <div class="section" data-anchor="info">
+      <div class="section" data-anchor="about">
         <div class="container marketing">
           <div class="row featurette">
             <div class="col-md-7">
@@ -87,7 +87,7 @@
         </div>
       </div>
 
-      <div class="section" data-anchor="me">
+      <div class="section" data-anchor="info">
         <div class="container marketing">
           <div class="row featurette">
             <div class="col-md-7 col-md-push-5">
@@ -205,14 +205,14 @@
     <script>
       $(document).ready(function() {
         $('#fullpage').fullpage({
-          anchors: ['home', 'info', 'me', 'skills', 'projects', 'blog', 'contact'],
+          anchors: ['home', 'about', 'info', 'skills', 'projects', 'blog', 'contact'],
           sectionsColor: ['#DE564B', '#FFFFFF', '#FFFFFF', '#323539', '#4BBFC3', '#4A6FB1','#1bbc9b'],
           menu: '#menu',
           scrollingSpeed: 1000,
           //navigation: true,
           slidesNavigation: true,
 				  navigationPosition: 'right',
-				  navigationTooltips: ['home', 'info', 'me', 'skills', 'projects', 'blog', 'contact']
+				  navigationTooltips: ['home', 'about', 'info', 'skills', 'projects', 'blog', 'contact']
         });
       });
     </script>
