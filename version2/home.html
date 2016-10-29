@@ -44,9 +44,9 @@
 
     <ul id="menu">
     	<li data-menuanchor="home" class="active"><a href="#home">Home</a></li>
-    	<li data-menuanchor="about"><a href="#about">About</a></li>
-      <li data-menuanchor="interests"><a href="#interests">Interests</a></li>
       <li data-menuanchor="info"><a href="#info">Info</a></li>
+      <li data-menuanchor="about"><a href="#about">About</a></li>
+      <li data-menuanchor="interests"><a href="#interests">Interests</a></li>
     	<li data-menuanchor="skills"><a href="#skills">Skills</a></li>
     	<li data-menuanchor="projects"><a href="#projects">Projects</a></li>
       <li data-menuanchor="blog"><a href="#blog">Blog</a></li>
@@ -96,13 +96,13 @@
                 <span class="label label-default">Microservices &amp; Docker</span>
                 <span class="label label-info">Event Sourcing &amp; CQRS</span>
                 <span class="label label-danger">Spring</span>
-                <span class="label label-warning">Vert.X</span>
+                <span class="label label-default">Vert.X</span>
                 <span class="label label-primary">Reactive Streams</span>
                 <span class="label label-success">Asynchronous, Non-Blocking Programming</span>
               </p>
             </div>
             <div class="col-md-7">
-              <h2 class="featurette-heading">are my areas of Interests</h2>
+              <h2 class="featurette-heading">are my technical Interests</h2>
             </div>
           </div>
         </div>
@@ -228,8 +228,8 @@
     <script>
       $(document).ready(function() {
         $('#fullpage').fullpage({
-          anchors: ['home', 'about', 'interests', 'info', 'skills', 'projects', 'blog', 'contact'],
-          sectionsColor: ['#DE564B', '#FFFFFF', '#FFFFFF', '#FFFFFF', '#323539', '#4BBFC3', '#4A6FB1','#1bbc9b'],
+          anchors: ['home', 'info', 'about', 'interests', 'skills', 'projects', 'blog', 'contact'],
+          sectionsColor: ['#DE564B', '#FFFFFF', '#F4D03F', '#FFFFFF', '#323539', '#4BBFC3', '#4A6FB1','#1bbc9b'],
           menu: '#menu',
           scrollingSpeed: 1000,
           //navigation: true,
