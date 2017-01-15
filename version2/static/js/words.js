@@ -43,6 +43,28 @@ var words = [
 		    {text: "JUnit", weight: 5},
 		    {text: "Mockito", weight: 5},
 
+				// frontend
+				{text: "AngularJS", weight: 6},
+				{text: "Bootstrap", weight: 6},
+				{text: "React", weight: 6},
+				{text: "Redux", weight: 6},
+				{text: "webpack", weight: 6},
+				{text: "Browserify", weight: 6},
+				{text: "Babel", weight: 6},
+				{text: "npm", weight: 6},
+				{text: "bower", weight: 6},
+				{text: "Grunt", weight: 6},
+				{text: "Gulp", weight: 6},
+				{text: "ES6", weight: 6},
+				{text: "Yeoman", weight: 6},
+				{text: "HTML5 Boilerplate", weight: 6},
+				/*{text: "Mocha", weight: 6},
+				{text: "Chai", weight: 6},
+				{text: "Browsersync", weight: 6},
+				{text: "Karma", weight: 6},
+				{text: "Jasmine", weight: 6},*/
+
+
 		    // Misc
 		    {text: "Maven", weight: 4.5},
 		    {text: "Git", weight: 4},
@@ -50,9 +72,6 @@ var words = [
 		    {text: "JSON", weight: 4},
 				{text: "Docker", weight: 6},
 				{text: "Vagrant", weight: 6},
-				{text: "AngularJS", weight: 6},
-				{text: "Bootstrap", weight: 6},
-				{text: "React", weight: 6},
 				{text: "Gradle", weight: 6},
 				{text: "Microservices", weight: 8},
 				{text: "ReactiveX", weight: 7},
