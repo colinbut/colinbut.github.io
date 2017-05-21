@@ -10,6 +10,7 @@ var words = [
 				{text: "Spring Data", weight:6},
 				{text: "Spring Test", weight: 4},
 				{text: "Spring Boot", weight: 8},
+				{text: "Spring Cloud", weight: 8},
 				// Java
 				{text: "Java", weight:10},
 				{text: "Java EE", weight:8},
@@ -35,7 +36,7 @@ var words = [
 
 		    // App Servers/Web Containers
 		    {text: "Tomcat", weight: 5},
-		    {text: "Glassfish", weight: 5},
+		    {text: "Glassfish", weight: 3},
 				{text: "Jetty", weight: 5},
 				{text: "JBoss", weight: 5},
 
@@ -44,10 +45,10 @@ var words = [
 		    {text: "Mockito", weight: 5},
 
 				// frontend
-				{text: "AngularJS", weight: 6},
+				{text: "AngularJS", weight: 7},
 				{text: "Bootstrap", weight: 6},
-				{text: "React", weight: 6},
-				{text: "Redux", weight: 6},
+				{text: "React", weight: 8},
+				{text: "Redux", weight: 7.5},
 				{text: "webpack", weight: 6},
 				{text: "Browserify", weight: 6},
 				{text: "Babel", weight: 6},
@@ -58,11 +59,12 @@ var words = [
 				{text: "ES6", weight: 6},
 				{text: "Yeoman", weight: 6},
 				{text: "HTML5 Boilerplate", weight: 6},
+				{text: "Jasmine", weight: 5.5},
+				{text: "Jest", weight: 5.5},
+				{text: "Browsersync", weight: 3},
 				/*{text: "Mocha", weight: 6},
 				{text: "Chai", weight: 6},
-				{text: "Browsersync", weight: 6},
-				{text: "Karma", weight: 6},
-				{text: "Jasmine", weight: 6},*/
+				{text: "Karma", weight: 6} */
 
 
 		    // Misc
@@ -70,23 +72,25 @@ var words = [
 		    {text: "Git", weight: 4},
 		    {text: "XML", weight: 4},
 		    {text: "JSON", weight: 4},
-				{text: "Docker", weight: 6},
-				{text: "Vagrant", weight: 6},
+				{text: "Docker", weight: 7},
+				{text: "Vagrant", weight: 6.5},
 				{text: "Gradle", weight: 6},
 				{text: "Microservices", weight: 8},
-				{text: "ReactiveX", weight: 7},
-				{text: "Event Sourcing", weight: 7},
-				{text: "CQRS", weight: 7},
-				{text: "Netty", weight: 6},
+				{text: "ReactiveX", weight: 6.5},
+				{text: "Event Sourcing", weight: 6.5},
+				{text: "CQRS", weight: 6.5},
+				{text: "Netty", weight: 5},
 				{text: "Akka", weight: 5},
-				{text: "Quartz", weight: 7.5},
-				{text: "EhCache", weight: 6.5},
+				{text: "Quartz", weight: 4.5},
+				{text: "EhCache", weight: 4.5},
 				{text: "Dropwizard", weight: 8},
-				{text: "Guice", weight: 7},
-				{text: "GWT", weight: 5},
+				{text: "Guice", weight: 6},
+				{text: "GWT", weight: 3},
 				{text: "JavaScript", weight: 5},
-				{text: "ActiveMQ", weight: 5},
-				{text: "Camel", weight: 5},
+				{text: "ActiveMQ", weight: 6},
+				{text: "RabbitMQ", weight: 6},
+				{text: "Camel", weight: 6},
+
 
 		    // Database
 		    {text: "MySQL", weight: 5},
