@@ -38,6 +38,89 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <style>
+
+      /* Style for our header texts
+      * --------------------------------------- */
+      h1{
+        font-size: 5em;
+        font-family: arial,helvetica;
+        color: #fff;
+        margin:0;
+        padding:0;
+      }
+    
+      /* Centered texts in each section
+      * --------------------------------------- */
+      .section{
+        text-align:center;
+      }
+    
+    
+      /* Backgrounds will cover all the section
+      * --------------------------------------- */
+      .section{
+        background-size: cover;
+      }
+      .slide{
+        background-size: cover;
+      }
+    
+      /* Defining each section background and styles
+      * --------------------------------------- */
+      #section0{
+        background-image: url(static/images/parallax-2.jpg);
+      }
+      #section0 h1{
+        top: 50%;
+        transform: translateY(-50%);
+        position: relative;
+      }
+      #section1{
+        background-image: url(static/images/parallax-3-2.jpg);
+      }
+      #section2{
+        background-image: url(static/images/parallax-3.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section3{
+        background-image: none;
+        padding: 6% 0 0 0;
+      }
+      #section3 h1{
+        color: #000;
+      }
+      #section4{
+        background-color: black;
+        padding: 6% 0 0 0;
+      }
+      #section5{
+        background-image: url(static/images/parallax-3.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section6{
+        background-image: url(static/images/parallax-3-2.jpg);
+        padding: 6% 0 0 0;
+      }
+      #section7{
+        background-image: url(static/images/parallax-4.jpg);
+        padding: 6% 0 0 0;
+      }
+    
+      /*Adding background for the slides
+      * --------------------------------------- */
+      #slide1{
+        background-image: url(imgs/bg2.jpg);
+        padding: 6% 0 0 0;
+      }
+      #slide2{
+        background-image: url(imgs/bg5.jpg);
+        padding: 6% 0 0 0;
+      }
+    
+      </style>
+
   </head>
 
   <body>
@@ -54,7 +137,7 @@
     </ul>
 
     <div id="fullpage">
-      <div class="section" data-anchor="home">
+      <div class="section" data-anchor="home" id="section0">
         <div class="container marketing">
           <div class="row featurette">
             <div class="col-md-7">
@@ -68,7 +151,7 @@
         </div>
       </div>
 
-      <div class="section" data-anchor="about">
+      <div class="section" data-anchor="about" id="section1">
         <div class="container marketing">
           <div class="row featurette">
             <div class="col-md-7">
@@ -76,26 +159,24 @@
               </div>
             <div class="col-md-5" style="padding-top:50px;">
               <p>
-              <span class="label label-default">Object-Oriented Design &amp; Programming</span>
-                  <span class="label label-primary">Software Design Patterns</span>
-                  <span class="label label-success">Software Architecture</span>
+                  <span class="label label-default">Object-Oriented Design &amp; Programming</span>
+                  <span class="label label-success">Software Architecture &amp; Design Patterns</span>
                   <span class="label label-info">Concurrent / Multi-Threading Programming</span>
                   <span class="label label-warning">Enterprise Application Integration</span>
                   <span class="label label-danger">Messaging Solutions</span>
+                  <span class="label label-default">Microservices and Containers</span>
                 </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="section" data-anchor="interests">
+      <div class="section" data-anchor="interests" id="section2">
         <div class="container marketing">
           <div class="row featurette">
             <div class="col-md-5" style="padding-top:50px;">
               <p>
-                <span class="label label-default">Microservices</span>
-                <span class="label label-info">Docker &amp; Kubernetes</span>
-                <span class="label label-danger">Spring</span>
+                <span class="label label-info">Cloud Computing</span>
                 <span class="label label-default">Vert.X</span>
                 <span class="label label-primary">Reactive Streams</span>
                 <span class="label label-success">Asynchronous, Non-Blocking Programming</span>
@@ -108,7 +189,7 @@
         </div>
       </div>
 
-      <div class="section" data-anchor="info">
+      <div class="section" data-anchor="info" id="section3">
         <div class="container marketing">
           <div class="row featurette">
             <div class="col-md-7 col-md-push-5">
@@ -122,14 +203,14 @@
         </div>
       </div>
 
-      <div class="section" data-anchor="skills">
+      <div class="section" data-anchor="skills" id="section4">
         <div class="container marketing">
           <div id="skillz" class="skills--jqcloud-words"></div>
         </div>
       </div>
 
 
-      <div class="section" data-anchor="projects">
+      <div class="section" data-anchor="projects" id="section5">
 
         <div class="slide">
           <div class="intro">
@@ -159,11 +240,11 @@
          </div>
 
       </div>
-      <div class="section blog-section" data-anchor="blog">
+      <div class="section blog-section" data-anchor="blog" id="section6">
         <h1 class="text-color-white">My Technical Blog</h1>
         <p class="text-color-white">Visit my technical blog <a class="text-color-dark" href="https://medium.com/@Colin_But" target="_blank">here</a> where i will be posting blog articles on various technical topics.</p>
       </div>
-      <div class="section" data-anchor="contact">
+      <div class="section" data-anchor="contact" id="section7">
         <div class="container marketing">
         <h1>Contact Information</h1>
           <div id="social-section">
@@ -227,7 +308,7 @@
       $(document).ready(function() {
         $('#fullpage').fullpage({
           anchors: ['home', 'info', 'interests', 'about', 'skills', 'projects', 'blog', 'contact'],
-          sectionsColor: ['#DE564B', '#FFFFFF', '#F4D03F', '#FFFFFF', '#323539', '#4BBFC3', '#4A6FB1','#1bbc9b'],
+          //sectionsColor: ['#DE564B', '#FFFFFF', '#F4D03F', '#FFFFFF', '#323539', '#4BBFC3', '#4A6FB1','#1bbc9b'],
           menu: '#menu',
           scrollingSpeed: 1000,
           //navigation: true,
