@@ -1,48 +1,52 @@
 var words = [
 
+				
+				// Cloud Computing/ Containers & Orchestration
+				{text: "AWS", weight: 9},
+				{text: "Google Cloud Platform", weight: 5},
+				{text: "Kubernetes", weight: 6.5},
+				{text: "Oracle Cloud", weight: 5},
+
 				// Spring
 				{text: "Spring", weight:9},
 				{text: "Spring AOP", weight:4},
 				{text: "Spring Batch", weight:5.8},
-				{text: "Spring Social", weight:5.5},
 				{text: "Spring Security", weight:5},
-				{text: "Spring Web MVC", weight:5},
+				{text: "Spring Web MVC", weight:6.5},
 				{text: "Spring Data", weight:6},
-				{text: "Spring Test", weight: 4},
-				{text: "Spring Boot", weight: 8},
+				{text: "Spring Boot", weight: 9},
 				{text: "Spring Cloud", weight: 8},
-				// Java
+				// Java & Java EE
 				{text: "Java", weight:10},
 				{text: "Java EE", weight:8},
 				{text: "JPA", weight: 7},
-	      {text: "JTA", weight: 7},
-	      {text: "JSF", weight: 4.5},
-	      {text: "Hibernate", weight: 6.8},
-	      {text: "CDI", weight: 3.5},
-	      {text: "Interceptors", weight: 5},
-	      {text: "Concurrency Utilities", weight: 5},
-	      {text: "Batch Applications for Java", weight: 4},
-	      {text: "JMS", weight: 7},
-	      {text: "JAX-RS", weight: 6},
-		    {text: "JSP", weight: 5.5},
-		    {text: "JSTL", weight: 4},
-		    {text: "Servlet", weight: 3.5},
-		    {text: "EJB", weight: 2.5},
-		    {text: "Expression Language", weight: 2},
-		    {text: "Bean Validation", weight: 3},
-		    {text: "JAXP", weight: 4},
-		    {text: "JDBC", weight: 5},
-		    {text: "JAX-WS", weight: 1},
+				{text: "JTA", weight: 7},
+				{text: "JSF", weight: 4.5},
+				{text: "Hibernate", weight: 6.8},
+				{text: "CDI", weight: 3.5},
+				{text: "Interceptors", weight: 4},
+				{text: "JMS", weight: 7},
+				{text: "JAX-RS", weight: 6},
+				{text: "JSP", weight: 5.5},
+				{text: "JSTL", weight: 4},
+				{text: "Servlet", weight: 3.5},
+				{text: "EJB", weight: 2.5},
+				{text: "Expression Language", weight: 2},
+				{text: "Bean Validation", weight: 3},
+				{text: "JAXP", weight: 4},
+				{text: "JDBC", weight: 5},
+				{text: "JAXB", weight: 2},
+				{text: "JAX-WS", weight: 1},
 
-		    // App Servers/Web Containers
-		    {text: "Tomcat", weight: 5},
-		    {text: "Glassfish", weight: 3},
+				// App Servers/Web Containers
+				{text: "Tomcat", weight: 5},
+				{text: "Glassfish", weight: 3},
 				{text: "Jetty", weight: 5},
 				{text: "JBoss", weight: 5},
 
-		    // Dev Testing
-		    {text: "JUnit", weight: 5},
-		    {text: "Mockito", weight: 5},
+				// Dev Testing
+				{text: "JUnit", weight: 6},
+				{text: "Mockito", weight: 6},
 
 				// frontend
 				{text: "AngularJS", weight: 7},
@@ -67,12 +71,12 @@ var words = [
 				{text: "Karma", weight: 6} */
 
 
-		    // Misc
-		    {text: "Maven", weight: 4.5},
-		    {text: "Git", weight: 4},
-		    {text: "XML", weight: 4},
-		    {text: "JSON", weight: 4},
-				{text: "Docker", weight: 7},
+				// Misc
+				{text: "Maven", weight: 4.5},
+				{text: "Git", weight: 4},
+				{text: "XML", weight: 4},
+				{text: "JSON", weight: 4},
+				{text: "Docker", weight: 8},
 				{text: "Vagrant", weight: 6.5},
 				{text: "Gradle", weight: 6},
 				{text: "Microservices", weight: 8},
@@ -80,24 +84,25 @@ var words = [
 				{text: "Event Sourcing", weight: 6.5},
 				{text: "CQRS", weight: 6.5},
 				{text: "Netty", weight: 5},
-				{text: "Akka", weight: 5},
 				{text: "Quartz", weight: 4.5},
 				{text: "EhCache", weight: 4.5},
+				{text: "Hazelcast", weight: 4.5},
 				{text: "Dropwizard", weight: 8},
 				{text: "Guice", weight: 6},
-				{text: "GWT", weight: 3},
+				{text: "JWT", weight: 3},
 				{text: "JavaScript", weight: 5},
 				{text: "ActiveMQ", weight: 6},
 				{text: "RabbitMQ", weight: 6},
 				{text: "Camel", weight: 6},
+				{text: "Nginx", weight: 6},
 
-
-		    // Database
-		    {text: "MySQL", weight: 5},
+				// Database
+				{text: "MySQL", weight: 5},
 				{text: "PostgreSQL", weight: 4.5},
 				{text: "DB2", weight: 5},
 				{text: "MongoDB", weight: 6.5},
-				{text: "Riak", weight: 5.5},
+				{text: "Cassandra", weight: 5.5},
+				{text: "Riak KV", weight: 5.5},
 				{text: "Oracle RDBMS", weight: 6}
 
 			];
