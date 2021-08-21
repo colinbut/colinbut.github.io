@@ -114,9 +114,9 @@ var words = [
 				{text: "Snowflake", weight: 4.5},
 
 				// CI/CD
-				{text: "Jenkins", weight:10},
+				{text: "Jenkins", weight:9},
 				{text: "CodeBuild", weight:7},
-				{text: "GitHub Actions", weight:10},
+				{text: "GitHub Actions", weight:8},
 
 			];
 
