@@ -3,10 +3,10 @@ var words = [
 				
 				// Cloud Computing/ Containers & Orchestration
 				{text: "AWS", weight: 10},
-				{text: "Google Cloud Platform", weight: 5},
+				{text: "GCP", weight: 5},
 				{text: "Kubernetes", weight: 9},
 				{text: "Ansible", weight: 9},
-				{text: "Cloudformation", weight: 8.5},
+				{text: "CloudFormation", weight: 8.5},
 				{text: "Terraform", weight: 9},
 
 				// Spring
@@ -17,9 +17,11 @@ var words = [
 				// {text: "Spring Web MVC", weight:6.5},
 				// {text: "Spring Data", weight:6},
 				{text: "Spring Boot", weight: 9},
-				{text: "Spring Cloud", weight: 5},
+				{text: "Spring Cloud", weight: 3},
 				// Java & Java EE
 				{text: "Java", weight:10},
+				{text: "Python", weight:8},
+				{text: "Groovy", weight:6},
 				// {text: "Java EE", weight:8},
 				// {text: "JPA", weight: 7},
 				// {text: "JTA", weight: 7},
@@ -82,6 +84,8 @@ var words = [
 				{text: "Vagrant", weight: 7.5},
 				{text: "Gradle", weight: 6},
 				{text: "Microservices", weight: 9},
+				{text: "Boundary", weight: 3},
+				{text: "Waypoint", weight: 4},
 				// {text: "ReactiveX", weight: 6.5},
 				// {text: "Event Sourcing", weight: 6.5},
 				// {text: "CQRS", weight: 6.5},
@@ -101,11 +105,18 @@ var words = [
 				// Database
 				{text: "MySQL", weight: 5},
 				{text: "PostgreSQL", weight: 4.5},
+				{text: "DynamoDB", weight: 4.5},
 				// {text: "DB2", weight: 5},
 				{text: "MongoDB", weight: 6.5},
 				{text: "Cassandra", weight: 5.5},
 				// {text: "Riak KV", weight: 5.5},
 				// {text: "Oracle RDBMS", weight: 6}
+				{text: "Snowflake", weight: 4.5},
+
+				// CI/CD
+				{text: "Jenkins", weight:10},
+				{text: "CodeBuild", weight:7},
+				{text: "GitHub Actions", weight:10},
 
 			];
 
